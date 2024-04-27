@@ -1,0 +1,1 @@
+Pagina web para practicar lo basico de html,css y el diseño responsive empezando con Mobile First.
