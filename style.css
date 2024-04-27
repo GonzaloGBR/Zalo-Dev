@@ -1,0 +1,81 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GENERAL */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+section{
+    margin: 20px 0px;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+/* HEADER */
+.header-navigation{
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #2e0e3f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+.header-navigation i{
+    color: white;
+    font-size: 2.7em;
+}
+.header-navigation nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.header-navigation nav ul li a{
+    font-size: 1em;
+}
+
+/* MAIN */
+.about-us{
+    gap: 15px;
+}
+.about-us article{
+    width: 90%;
+    margin: auto;
+}
+.about{
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+.about h1{
+    font-size: 1.7em;
+}
+.h1-about{
+    font-weight: bold;
+    color: #2e0e3f;
+}
+.about-img{
+    max-width: 800px;
+}
+.about-info{
+    max-width: 1100px;
+    text-align: justify;
+}
+
